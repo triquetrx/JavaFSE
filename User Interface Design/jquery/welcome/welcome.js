@@ -1,7 +1,7 @@
 //Write Your jQuery Code Here
 
 $(document).ready(function(){
-    $("#btnId").on('click',function(){
-        $('#address').append("\"Welcome "+$("#txt").val()+" !\"") 
+    $("button").on('click',function(){
+        $('#address').text("\"Welcome "+$("#txt").val()+" !\"") 
      });
 });
