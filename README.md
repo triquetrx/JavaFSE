@@ -14,5 +14,5 @@
 > https://github.com/triquetrx/Java/tree/projects/Handson/HackerRank
 
 ### ICT Stage 1
-> [MKM Dress Collection](https://github.com/triquetrx/Java/tree/projects/test/src/com/cts/mkm)
+> [MKM Dress Collection](https://github.com/triquetrx/Java/tree/projects/test/src/com/cts/mkm)<br/>
 > [Two Wheeler](https://github.com/triquetrx/Java/tree/projects/test/src/com/cts/com.cts.tws)
