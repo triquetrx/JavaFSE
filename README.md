@@ -8,7 +8,7 @@
 > [Data Structures and Algorithms](https://github.com/triquetrx/Java/tree/projects/Stage%201/Data%20Structures%20and%20Algorithms)<br/>
 
 ## **Stage 2**
-### > [Spring Core, Maven](https://github.com/triquetrx/Java/tree/projects/Stage%202/Spring%20Core%20%26%20Maven)
+> [Spring Core, Maven](https://github.com/triquetrx/Java/tree/projects/Stage%202/Spring%20Core%20%26%20Maven)<br/>
 
 
 ### ICT Solutions
