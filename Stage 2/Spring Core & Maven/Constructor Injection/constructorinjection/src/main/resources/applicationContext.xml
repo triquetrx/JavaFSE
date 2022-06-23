@@ -1,0 +1,21 @@
+<beans xmlns="http://www.springframework.org/schema/beans" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+ 
+  <bean class="com.spring.app.MemberShip" name="membership">
+  	<constructor-arg value="123"></constructor-arg>
+  	<constructor-arg value="FullTime"></constructor-arg>
+  	<constructor-arg value="20"></constructor-arg>
+  	<constructor-arg ref="custObj"></constructor-arg>
+  </bean>
+  
+  <bean class="com.spring.app.Customer" id="custObj">
+  	<constructor-arg value="1"></constructor-arg>
+  	<constructor-arg value="Zaid Khan"></constructor-arg>
+  	<constructor-arg value="abc@example.com"></constructor-arg>
+  	<constructor-arg value="123456789"></constructor-arg>
+  </bean>
+  
+  
+</beans>
