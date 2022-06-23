@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Register</title>
+        <style>
+            table caption{
+                text-align: left;
+            }
+        </style>
+        <script src="script.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+    <body>
+        <table border="1">
+            <caption><h2>Elite Coaching Center</h2></caption>
+            <tr>
+                <td><label for="sname">Student Name</label></td>
+                <td><input type="text" name="sname" id="sname" required/></td>
+            </tr>
+            <tr>
+                <td><label for="course">Course</label></td>
+                <td>
+                    <select name="course" id="course" required>
+                        <option value="Python">Python</option>
+                        <option value="Java">Java</option>
+                        <option value="Oracle">Oracle</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <input type="button" name="submit" id="submit" value="Register" onclick="display()"/>
+        <div id="greet"></div>
+    </body>
+</html>

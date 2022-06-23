@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- DO NOT DELETE THE GIVEN TEMPLATE. FILL YOUR CODE WHEREVER NECESSARY -->
+<html lang="en">
+<head>
+<title>Bootstrap Example</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<h2>Feedback form</h2>
+		<form action="#" class="form-group" onsubmit="return false">
+			<div>
+				<label for="customerName">Customer Name:</label>
+				<!-- fill your code for customerName -->
+                <input type="text" class="form-control" name="customerName" id="customerName" placeholder="Enter your name" required/>
+			</div>
+			<div>
+				<label for="mobileNumber">Mobile Number:</label>
+				<!-- fill your code for mobileNumber -->
+				<input type="text" name="mobileNumber" class="form-control" id="mobileNumber" placeholder="Enter your mobile number" required/>
+
+			</div>
+			<div>
+				<label for="email">Email:</label>
+				<!-- fill your code for email -->
+                <input type="text" name="email" class="form-control" id="email" placeholder="Enter email" required/>
+			</div>
+
+			<div class="form-check">
+				<label for="gender">Gender:</label>
+
+				<!-- fill your code for gender - male -->
+                <input type="radio" class="form-check-input" name="gender" value="male" id="male"/>
+				<label class="form-check-label" for="male"> Male </label>
+            
+				<!-- fill your code for gender - female -->
+                <input type="radio" class="form-check-input" name="gender" id="female" value="female"/>
+				<label class="form-check-label" for="female">Female </label>
+			</div>
+			<div>
+				<label for="remarks">Remarks:</label>
+				<!-- fill your code for remarks -->
+                <textarea name="remarks" class="form-control" placeholder="Enter your remarks" id="remarks" rows="4"></textarea>
+			</div>
+			<div>
+				<!-- fill your code for subscribe -->
+                <input type="checkbox" class="form-check-input" name="subscribe" id="subscribe" />
+
+				<label> Accept to subscribe for newsletters through email</label>
+			</div>
+
+			<div>
+				<!-- fill your code for submit -->
+				<input class="btn btn-lg btn-success" type="submit" >
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>

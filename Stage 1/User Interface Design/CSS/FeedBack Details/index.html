@@ -1,0 +1,50 @@
+<html>
+	<head>
+    <script src="script.js" type="text/javascript"> </script>
+    <style>
+        h2{
+            display: block;
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin: 10px;
+        }
+        button{
+            padding: 5px 10px;
+        }
+        #result{
+            display: none;
+            padding: 10px;
+            width: 25%;
+            border: 5px solid black;
+        }
+    </style>
+  </head>
+  <body> 
+    <!-- Fill code here -->
+    <h2 class="center"><strong>Feedback for the ART OF LIVING session</strong></h2>
+    <table class="center">
+        <tr>
+            <td>
+                Enter the Feedback:
+            </td>
+            <td>
+                <textarea name="feedback" id="feedback" type="text"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="center" id="create" onclick="addFeedback()">Add Feedback</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="center" id="view" onclick="displayFeedback()">View Feedback</button>
+            </td>
+        </tr>
+    </table>
+    <div id="result"></div>
+  </body>
+</html>

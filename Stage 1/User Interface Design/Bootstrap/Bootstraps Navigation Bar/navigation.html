@@ -1,0 +1,91 @@
+<!-- FILL ONLY THE SPECIFIED PART ALONE -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 4 Responsive Navbar</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <!-- FILL YOUR CODE FOR NAVIGATION BAR HERE -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">TrackIt</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="mt-5">Track the Payment - TrackIt</h2>
+                <ul class="list-unstyled">
+                    <li>Allows you to track your Bill Payment</li>
+                    <li>Help to automate delivery for customers with no need to install or download anything</li>
+                    <li>A customizable tool for ensuring that any payments you have to make are paid on time.</li>
+                </ul><br>
+                <h4>Greater comfort. Stronger performance. Improved Security. No Compromise</h4><br>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8" id="tableContainer">
+                <!-- FILL YOUR CODE FOR TABLE HERE -->
+                <table class="table table-hover">
+                    <tr>
+                        <th>No.</th>
+                        <th>Bill</th>
+                        <th>Payment Date</th>
+                        <th>Payment Status</th>
+                    </tr>
+                    <tr class="table-warning">
+                        <td>1</td>
+                        <td>Credit Card</td>
+                        <td>05/07/2022</td>
+                        <td>Pending</td>
+                    </tr>
+                    <tr class="table-success">
+                        <td>2</td>
+                        <td>Internet</td>
+                        <td>05/07/2022</td>
+                        <td>Paid</td>
+                    </tr>
+                    <tr class="table-danger">
+                        <td>3</td>
+                        <td>Telephone</td>
+                        <td>05/07/2022</td>
+                        <td>Due</td>
+                    </tr>
+                </table>
+                
+                
+                
+                
+                
+            </div>
+        </div>
+    </section>
+</body>
+</html>
