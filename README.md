@@ -9,10 +9,14 @@
 ### Java Programing Fundamentals
 > https://github.com/triquetrx/Java/tree/projects/Stage%201/Java%20Programming%20Fundamentals
 ### Design Patterns and Principles
-> https://github.com/triquetrx/Java/tree/projects/Handson
+> https://github.com/triquetrx/Java/tree/projects/Stage%201/Design%20Patterns%20and%20Principles
 ### Data Structures and Algorithms
-> https://github.com/triquetrx/Java/tree/projects/Handson/HackerRank
+> https://github.com/triquetrx/Java/tree/projects/Stage%201/Data%20Structures%20and%20Algorithms
 
 ### ICT Stage 1
 > [MKM Dress Collection](https://github.com/triquetrx/Java/tree/projects/test/src/com/cts/mkm)<br/>
 > [Two Wheeler](https://github.com/triquetrx/Java/tree/projects/test/src/com/cts/com.cts.tws)
+
+## **Stage 2**
+### Spring Core, Maven
+> https://github.com/triquetrx/Java/tree/projects/Stage%202/Spring%20Core%20%26%20Maven
