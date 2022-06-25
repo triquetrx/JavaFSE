@@ -9,6 +9,7 @@
 
 ## **Stage 2**
 > [Spring Core, Maven](https://github.com/triquetrx/Java/tree/projects/Stage%202/Spring%20Core%20%26%20Maven)<br/>
+> [Unit Testing, Code Quality](https://github.com/triquetrx/JavaFSE/tree/projects/Stage%202/Unit%20Testing%2C%20Code%20Quality)
 
 
 ## ICT Solutions
