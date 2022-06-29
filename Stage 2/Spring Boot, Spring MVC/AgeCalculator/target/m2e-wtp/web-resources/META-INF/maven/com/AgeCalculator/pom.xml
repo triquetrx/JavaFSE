@@ -1,0 +1,79 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com</groupId>
+  <artifactId>AgeCalculator</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Age Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+  
+  <!-- https://mvnrepository.com/artifact/org.mockito/mockito-all -->
+<dependency>
+    <groupId>org.mockito</groupId>
+    <artifactId>mockito-all</artifactId>
+    <version>2.0.2-beta</version>
+    <scope>test</scope>
+</dependency>
+  
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.0</version>
+      <scope>test</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
+<dependency>
+    <groupId>org.assertj</groupId>
+    <artifactId>assertj-core</artifactId>
+    <version>3.16.1</version>
+    <scope>test</scope>
+</dependency>
+    
+    		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.141.59</version>
+		</dependency>
+		   
+   <dependency>
+     <groupId>javax.servlet</groupId>
+     <artifactId>javax.servlet-api</artifactId>
+     <version>3.1.0</version>
+     <scope>provided</scope>
+</dependency>
+
+    
+   <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>jstl</artifactId>
+        <version>1.2</version>
+  
+    </dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.9.10</version>
+			<scope>test</scope>
+		</dependency>
+  </dependencies>
+ 
+ 
+  <build>
+  <plugins>
+   <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>2.16</version>
+    <configuration>
+    <includes>
+    <include>runner.TestSuite.java</include>
+    </includes>
+    <skipTests>false</skipTests>
+    </configuration>
+</plugin></plugins>
+    <finalName>Age</finalName>
+  </build>
+</project>
