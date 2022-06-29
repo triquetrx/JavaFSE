@@ -1,0 +1,16 @@
+create database forex_card_payment;
+use forex_card_payment;
+
+create table ForexCardPayment
+ (
+ forexCardNo varchar(30) primary key,
+ forexCardId varchar(30),
+ customerId varchar(30),
+ customerName varchar(30),
+ forexCardType varchar(30),
+ payableAmount double,
+ dueDate date,
+ actualPaymentDate date,
+ revisedpayableAmount double,
+ forexCardLimit double
+);
