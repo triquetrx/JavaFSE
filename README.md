@@ -15,3 +15,4 @@
 ## ICT Solutions
 > [MKM Dress Collection](https://github.com/triquetrx/Java/tree/projects/test/src/com/cts/mkm)<br/>
 > [Two Wheeler](https://github.com/triquetrx/Java/tree/projects/test/src/com/cts/com.cts.tws)
+> [Forex Card Management System](https://github.com/triquetrx/JavaFSE/tree/projects/test/Forex%20Card%20Management)
