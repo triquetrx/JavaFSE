@@ -12,9 +12,15 @@
 > [Unit Testing, Code Quality](https://github.com/triquetrx/JavaFSE/tree/projects/Stage%202/Unit%20Testing%2C%20Code%20Quality)<br/>
 > [Spring Boot, Spring MVC](https://github.com/triquetrx/JavaFSE/tree/projects/Stage%202/Spring%20Boot%2C%20Spring%20MVC)
 
+## **Stage 3**
+> [Spring Data JPA with Spring Boot](https://github.com/triquetrx/JavaFSE/tree/projects/Stage%203/Spring%20Data%20JPA%20with%20Spring%20Boot)<br/>
+> [Logging and Code Quality](https://github.com/triquetrx/JavaFSE/tree/projects/Stage%203/Logging%20and%20Code%20Quality)<br/>
+> [React](https://github.com/triquetrx/JavaFSE/tree/projects/Stage%203/React)
+
 
 ## ICT Solutions
 > [MKM Dress Collection](https://github.com/triquetrx/Java/tree/projects/test/src/com/cts/mkm)<br/>
 > [Two Wheeler](https://github.com/triquetrx/Java/tree/projects/test/src/com/cts/com.cts.tws)<br/>
 > [Forex Card Management System](https://github.com/triquetrx/JavaFSE/tree/projects/test/Forex%20Card%20Management)
-
+> [Offimart](https://github.com/triquetrx/JavaFSE/tree/projects/test/Offi%20mart.zip_expanded/Offimart)<br/>
+> [ConstructionCostEstimator](https://github.com/triquetrx/JavaFSE/tree/projects/test/ConstructionCost%20Estimator.zip_expanded/ConstructionCostEstimator)
