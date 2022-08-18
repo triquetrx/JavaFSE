@@ -18,7 +18,7 @@
 > [React](https://github.com/triquetrx/JavaFSE/tree/projects/Stage%203/React)
 
 ## **Stage 4**
-> [Spring REST using Spring Boot](https://github.com/triquetrx/JavaFSE/tree/projects/Stage-4/Spring%20REST%20using%20Spring%20Boot)
+> [Spring REST using Spring Boot](https://github.com/triquetrx/JavaFSE/tree/projects/Stage-4/Spring%20REST%20using%20Spring%20Boot)<br/>
 > [Microservices](https://github.com/triquetrx/JavaFSE/tree/projects/Stage-4/Microservices)<br/>
 > [AWS](https://github.com/triquetrx/JavaFSE/tree/projects/Stage-4/AWS)<br/>
 
