@@ -17,6 +17,12 @@
 > [Logging and Code Quality](https://github.com/triquetrx/JavaFSE/tree/projects/Stage%203/Logging%20and%20Code%20Quality)<br/>
 > [React](https://github.com/triquetrx/JavaFSE/tree/projects/Stage%203/React)
 
+## **Stage 4**
+> [Spring REST using Spring Boot](https://github.com/triquetrx/JavaFSE/tree/projects/Stage-4/Spring%20REST%20using%20Spring%20Boot)
+> [Microservices](https://github.com/triquetrx/JavaFSE/tree/projects/Stage-4/Microservices)<br/>
+> [AWS](https://github.com/triquetrx/JavaFSE/tree/projects/Stage-4/AWS)<br/>
+
+
 
 ## ICT Solutions
 > [MKM Dress Collection](https://github.com/triquetrx/Java/tree/projects/test/src/com/cts/mkm)<br/>
